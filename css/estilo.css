@@ -1,0 +1,141 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  background-color: #f9305cd2;
+  overflow-x: hidden
+}
+
+.logo {
+  width: 75px;
+  height: 50px;
+
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  position: relative;
+}
+
+#inicio {
+  /*position: relative;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/banner_principal.jpg");
+  background-size: cover;
+  height: 500px;
+  width: auto;
+}
+
+.boton.boton-rojo {
+  color: rgb(255, 255, 255);
+  background-color: rgba(209, 38, 38, 0.705);
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 20px;
+  border: none;
+}
+
+.bloque-inicio {
+  width: 60%;
+  background-color: rgba(128, 128, 128, 0.705);
+  padding: 15px 20px;
+  text-align: center;
+}
+
+#menu a {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(241, 243, 241);
+  margin-bottom: 0px;
+
+}
+
+#menu a:hover {
+  color: rgb(29, 185, 29);
+  background: rgb(116, 5, 5);
+}
+
+#menu button {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.carousel-inner {
+  max-height: 420px;
+}
+
+.wrapper-local {
+  background-color: #f3f3f3;
+  border: #f3f3f3;
+}
+
+.ftco-section {
+  background-color: rgba(218, 163, 177, 0.432);
+  padding-top: 20px;
+}
+
+#intro {
+  background-color: rgba(241, 200, 175, 255)
+}
+
+.seccion-mapa {
+  width: auto;
+  padding: 50px 90px;
+  padding-top: 85px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.521);
+  box-sizing: border-box;
+}
+
+#contenedor-formulario {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  transform: translate(-50, -50);
+  background: #fbfafa;
+  border-radius: 5px;
+  max-width: 500px;
+
+}
+
+#menu-producto {
+  background-image: url("../img/banner_principal.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: auto;
+  width: auto;
+}
+
+
+footer {
+  background: rgba(221, 53, 68, 255);
+  min-height: 100px;
+  
+}
+
+footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: #f3f3f3;
+}
+
+.container-menu {
+  padding: 70px;
+}
+
+

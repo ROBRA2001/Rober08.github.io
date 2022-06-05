@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Pizzeria unicordoba</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top  navbar navbar-expand-lg navbar-light p-3 bg-danger d-flex justify-content-center " id="menu">
+        <div class="container ">
+            
+                <img src="img/logo.png" class="logo">
+            
+            
+            <a class="navbar-brand" href="#">
+
+                <span class="text-Light  fs-4 fw-bold">Pizzería Unicórdoba</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recomendacion">Recomendación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contactenos">Ubicación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro">Nosotros</a>
+                    </li>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="Buscar" placeholder="Buscar Producto"
+                            aria-label="Buscar">
+                        <button class="btn btn-info btn-primary-outline-success" type="button">Buscar</button>
+                    </form>
+                </ul>
+            </div>
+    </nav>
+    <div class="container-fluid">
+        <section id="inicio">
+            <div class="bloque-inicio">
+                <h2 >Bienvenidos a la Pizzería Unicordoba</h2>
+                <p class=" p-3 fs-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+                    </p>
+                    <a href="#nosotros" class="boton boton-rojo">Ver más</a>
+            </div>
+        </section>
+    </div>
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-auto m-auto"
+        id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Bienvenidos a la Pizzería Unicordoba</h1>
+        <p class="p-3  fs-4">Somos una pizzeria Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Incidunt ea tempore tempora cumque quae at, ducimus reiciendis, sunt omnis aperiam cupiditate et aut
+            beatae reprehenderit, consequuntur recusandae odit deserunt possimus!
+        </p>
+    </section>
+
+    <section id="contactenos" class="seccion-mapa">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <iframe width="100%" height="500" frameborder="0"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.9662539956375!2d-75.85978838622209!3d8.789240593687396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5a2f065714a625%3A0x24f2299bbe3ad047!2sUniversidad%20De%20C%C3%B3rdoba!5e0!3m2!1ses!2sco!4v1635219669552!5m2!1ses!2sco"></iframe>
+                </div>
+                <div class="col-12 col-sm-6 ">
+                    <div class="wrapper-local">
+                        <h2>Estamos ubicados en Monteria</h2>
+                        <h2 class="text-primary mb-4" id="typewriter"></h2>
+                        <p class="fs-5 text-body">Por la universidad Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. A dignissimos provident illo expedita iusto placeat, vitae dicta alias, nihil veniam
+                            sint? Quae laborum iusto itaque, sit debitis modi consequuntur eaque?</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section class="ftco-section" id="recomendacion">
+        <div class="container">
+
+            <div class="row justify-content-center align-items-center w-auto m-auto  ">
+                <h2 class="text-center p-3 fs-2 ">RECOMENDACIONES DEL DIA</h2>
+                <div class=" col-12 col-sm-3   card " style="width: 23rem;">
+                    <img src="img/pizza2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Buen dia</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-info">Comprar</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3  card " style="width: 23rem; ">
+                    <img src="img/pizza5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title"> Buenas tardes</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-info  ">Comprar</a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3 card " style="width: 23rem;">
+                    <img src="img/pizza4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Buenas noches</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-info">Comprar</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+        <p class="fs-5 px-3  pt-3">Pizzería Unicórdoba &copy | Todos Los Derechos Reservados a Daniel Jose Sanchez &
+            Rober David Bracamonte |2022</p>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
